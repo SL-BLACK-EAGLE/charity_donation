@@ -13,6 +13,7 @@ module.exports = {
       fontFamily: {
         'abril': ['Abril Fatface'],
         'shadows':['Shadows Into Light'],
+        'rubik':['Rubik'],
 
       },
     },

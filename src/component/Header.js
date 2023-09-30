@@ -73,10 +73,10 @@ const Header = () => {
 
                     </div>
                     <div className="flex items-center justify-center  w-[30rem] gap-3">
-                        <BsSearch className="text-[1.5rem] hover:text-orange-600 cursor-pointer ml-12 mt-5" />
-                        <AiOutlineShoppingCart className="text-[2rem] hover:text-orange-600 cursor-pointer ml-5 mt-5" />
-                        <div className="w-[9rem] bg-orange-500 h-[3rem] ml-5 mt-5 flex rounded-full cursor-pointer hover:bg-black ">
-                            <AiFillHeart className="text-[1rem] text-[#FFFFFF] ml-9 mt-[0.9rem]" />
+                        <BsSearch className=" transition-colors duration-500 ease-in-out text-[1.5rem] hover:text-orange-600 cursor-pointer ml-12 mt-5" />
+                        <AiOutlineShoppingCart className=" transition-colors duration-500 ease-in-out text-[2rem] hover:text-orange-600 cursor-pointer ml-5 mt-5" />
+                        <div className="transition-colors duration-500 ease-in-out w-[9rem] bg-orange-500 h-[3rem] ml-5 mt-5 flex rounded-full cursor-pointer hover:bg-black ">
+                            <AiFillHeart className=" transition-colors duration-500 ease-in-out text-[1rem] text-[#FFFFFF] ml-9 mt-[0.9rem]" />
                             <p className='text-[#FFFFFF] font-bold font-sans mt-[0.6rem] ml-1'>Donate</p>
                         </div>
                     </div>
