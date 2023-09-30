@@ -1,15 +1,17 @@
 import './App.css';
 import Header from "./component/Header";
-import Footer from "./component/Footer";
+import Contact from "./pages/Contact"
+
 
 function App() {
   return (
     <main>
       <Header />
-      <h1>Main</h1>
-      <Footer />
+      <Contact />
+     
     </main>
   );
 }
 
 export default App;
+
