@@ -1,5 +1,7 @@
 /** @type {import('tailwindcss').Config} */
+
 const {nextui} = require("@nextui-org/react");
+
 
 
 module.exports = {
@@ -8,6 +10,7 @@ module.exports = {
   ],
   theme: {
     extend: {
+
       backgroundImage:{
         'pageHeader':"url('./image/page-header-bg.jpg')",
         'background':"url('./image/cta-two-bg.jpg')",
@@ -29,6 +32,17 @@ module.exports = {
         'borderColor':'rgba(255, 255, 255, 0.5)',
         'box_shadow':'rgba(0, 0, 0, 0.5)',
       }
+
+      backgroundImage: {
+        'pageHeader': "url('./images/page-header-bg.jpg')",
+      },
+      fontFamily: {
+        'abril': ['Abril Fatface'],
+        'shadows':['Shadows Into Light'],
+        'rubik':['Rubik'],
+
+      },
+
     },
   },
   darkMode: "class",
