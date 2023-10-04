@@ -1,4 +1,4 @@
-import React from 'react'
+mport React from 'react'
 import Logo from "..//images/logo.png"
 import { BsFillTelephoneFill, BsInstagram, BsSearch } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
@@ -70,7 +70,6 @@ const Header = () => {
                             </Navbar>
                         </div>
 
-
                     </div>
                     <div className="flex items-center justify-center  w-[30rem] gap-3">
                         <BsSearch className=" transition-colors duration-500 ease-in-out text-[1.5rem] hover:text-orange-600 cursor-pointer ml-12 mt-5" />
@@ -81,14 +80,10 @@ const Header = () => {
                         </div>
                     </div>
 
-
-
                 </div>
 
             </div>
         </div>
-
-
 
     )
 }
