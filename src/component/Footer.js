@@ -10,6 +10,7 @@ import { AiFillHeart } from 'react-icons/ai';
 
 const Footer = () => {
     return (
+
         <div>
             <footer class="bg-[url('./images/site_footer_bg.jpg')] relative block bg-cover bg-no-repeat h-[27rem] ">
                 <div className='flex  flex-wrap bg-[#2c2734f2] w-full h-[27rem] '>
@@ -118,6 +119,7 @@ const Footer = () => {
             </div>
 
         </div>
+        <div className='h-20 bg-[231f29]'></div>
     )
 }
 export default Footer;
