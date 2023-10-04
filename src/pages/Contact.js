@@ -10,7 +10,9 @@ const Contact = () => {
         <div>
 
 
-            <section class="bg-[url('./images/page-header-bg.jpg')] w-full h-[23rem]">
+            <section class="bg-[url('./images/page-header-bg.jpg')] w-full h-[23rem] bg-no-repeat bg-cover 
+            before:content-['']  before:left-0 before:h-[23rem] before:w-[100%]
+             before:bg-[#2C2734] before:opacity-[0.6] before:absolute">
                 <div className=''>
                     <div className='relative block text-center pt-[7.2rem]'>
 
@@ -102,17 +104,17 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
-                <div className='w-[84.313rem] h-[34rem] pt-[7rem]'>
-                    <iframe 
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.3159595774714!2d79.99727977406721!3d7.089324716331443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2fb1c286b065b%3A0x13616876f884dc14!2sJava%20Institute%20for%20Advanced%20Technology%20Gampaha!5e0!3m2!1sen!2slk!4v1696091561482!5m2!1sen!2slk" 
-                     style={{border:"0"}}
-                      allowfullscreen="" 
-                      loading="lazy" 
-                      referrerpolicy="no-referrer-when-downgrade"
-                      className='w-[84.313rem] h-[34rem]'>
+                <section className='w-[84.313rem] h-[34rem] pt-[7rem] relative block'>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.3159595774714!2d79.99727977406721!3d7.089324716331443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2fb1c286b065b%3A0x13616876f884dc14!2sJava%20Institute%20for%20Advanced%20Technology%20Gampaha!5e0!3m2!1sen!2slk!4v1696091561482!5m2!1sen!2slk"
+                        style={{ border: "0" }}
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        className='w-[84.313rem] h-[34rem]'>
 
-                      </iframe>
-                </div>
+                    </iframe>
+                </section>
             </section>
         </div>
     )

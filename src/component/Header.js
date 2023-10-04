@@ -11,7 +11,7 @@ import { AiFillHeart, AiOutlineShoppingCart } from 'react-icons/ai';
 
 const Header = () => {
     return (
-        <div className='h-[8.9rem] flex '>
+        <div className='h-[8.9rem] flex w-full'>
             <div className='bg-white w-[17.6rem] h-[8.9rem] border-x-2 border-y-2 flex items-center justify-center' >
                 <img src={Logo} alt='logo' width={138} height={38} className='ml-9' />
 

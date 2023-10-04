@@ -1,13 +1,22 @@
 import './App.css';
 import Header from "./component/Header";
-import Contact from "./pages/Contact"
+import Footer from "./component/Footer";
+import Donate from "./pages/Donate";
+import SignUp from './pages/SignUp';
+
+
 
 
 function App() {
   return (
     <main>
-      <Header />
-      <Contact />
+  <Header />
+  <Donate />
+  <Footer/>
+
+
+    
+    
      
     </main>
   );
